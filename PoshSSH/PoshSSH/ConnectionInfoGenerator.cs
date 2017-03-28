@@ -159,7 +159,7 @@ namespace SSH
                         break;
                 }
 
-                if (proxycredential.UserName != String.Empty)
+                if (proxycredential == null)
                 {
                     connectionInfo = new ConnectionInfo(computer,
                                                         port,
